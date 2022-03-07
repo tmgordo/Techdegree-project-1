@@ -29,6 +29,7 @@ def start_game():
                 high_score.append(score)
                 print(f"Thanks for playing {player}. Have a beautiful day!")
                 break
+            break    
         except ValueError:
             print("Please enter a number 1-10")
             continue
